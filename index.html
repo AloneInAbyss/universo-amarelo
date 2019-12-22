@@ -1,24 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- Informações Básicas -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Título & Ícone -->
-    <title>Thiago Assi - Página Inicial</title>
+    <title>Universo Amarelo</title>
     <link rel="icon" href="img/favicon.ico">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet">
 
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
     <!-- CSS Personalizado -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
 </head>
 <body>
+    <!-- SIDEBAR  -->
+    <nav id="sidebar">
+        <!-- Botão para fechar -->
+        <div id="btn-fechar">
+            <i class="fas fa-arrow-left"></i>
+        </div>
+
+        <!-- Título da SIDEBAR -->
+        <div class="sidebar-header">
+            <h3>Universo Amarelo</h3>
+        </div>
+
+        <!-- Componentes da SIDEBAR -->
+        <ul class="list-unstyled components">
+            <!-- Frase -->
+            <p>"Insanidade é fazer a mesma coisa e esperar resultados diferentes"<br>
+            - Albert Einstein</p>
+
+            <!-- Link "Início" -->
+            <li class="active">
+                <a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Início</a>
+            </li>
+
+            <!-- Link "Projetos" -->
+            <li>
+                <a href="#"><i class="fa fa-folder-open" aria-hidden="true"></i>&nbsp;&nbsp;Projetos</a>
+            </li>
+
+            <!-- Link "Currículo" -->
+            <li>
+                <a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;Currículo</a>
+            </li>
+
+            <!-- Link "Sobre Mim" -->
+            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Sobre Mim</a>
+            </li>
+            
+            <!-- Redes Sociais -->
+            <div class="redes-sociais">
+            <p>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </p>
+            <p>
+                <a href="#"><i class="fab fa-steam"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </p>
+            <p>
+                <a href="#"><i class="fab fa-reddit-alien"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </p>
+            </div>
+        </ul>
+        <!-- /Componentes da SIDEBAR -->
+    </nav>
+    <!-- SIDEBAR -->
+
+    <!-- OVERLAY da SIDEBAR -->
+    <div class="overlay"></div>
+
+    <!-- NAVBAR -->
+    <div id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Botão da SIDEBAR -->
+            <button type="button" id="sidebarCollapse" class="btn btn-primary navbar-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- NOME DO SITE -->
+            <a class="navbar-brand" href="#">
+                Universo Amarelo
+            </a>
+        </div>
+    </nav>
+    </div>
+    <!-- /NAVBAR -->
+
     <!-- CONTAINER DA PÁGINA --> 
     <div class="container-fluid">
 
@@ -40,7 +129,7 @@
             <!-- COLUNA 'Resumo' -->
             <div class="offset-md-2 col-md-4 align-self-center">
                 <p class="mt-2 mb-4">
-                    "Aqui você encontra os links para várias coisas minhas, como meus projetos ou outras coisas legais que já estão hospedadas e funcionando! Tem muita coisa pra arrumar ainda, mas procurando por aí você pode descobrir um pouco mais sobre mim!"
+                    "Aqui você encontra os links para várias coisas minhas, como meus projetos ou outras coisas legais que estão em desenvolvimento! Tem muita coisa pra arrumar ainda, mas procurando por aí você pode descobrir um pouco mais sobre mim!"
                     <br>
                     <strong>Seja bem-vindo!</strong>
                     <br>
@@ -85,7 +174,7 @@
                         <div class="card-body text-center">
                             <h3 class="card-title">KUUHAKU - GitHub</h3>
                             <p class="card-text">Repositório do projeto no GitHub.</p>
-                            <p><a href="https://github.com/AloneInAbyss/kuuhaku" class="btn btn-primary" target="_blank">Visitar &gt;</a></p>
+                            <p><a href="https://github.com/AloneInAbyss/site-kuuhaku" class="btn btn-primary" target="_blank">Visitar &gt;</a></p>
                         </div>
                     </div>
                 </div>
@@ -138,66 +227,6 @@
         </div>
         </div>
         <!-- /SEÇÃO 'SEGREDOS DO PORÃO' -->
-
-        <!-- SEÇÃO 'SOBRE RABI-RIBI'
-        <div class="row">
-            <div class="offset-md-2 col-md-8">
-                <!-- TÍTULO
-                <h2 class="border-bottom pb-1 mt-4 mb-4 titulo">Sobre RABI-RIBI</h2>
-
-                <!-- LINHA COM IMAGENS
-                <div class="row mt-4 mb-4">
-                    <!-- FACEBOOK RABI-RIBI
-                    <div class="col-md d-flex align-items-stretch mt-2 mb-2">
-                        <div class="card mx-auto">
-                            <img src="img/logo-rabi-ribi-facebook.jpg" alt="Rabi-Ribi Brasil" class="card-img-top p-1 imagem-rabi-ribi mx-auto">
-                            <div class="card-body text-center">
-                                <h3 class="card-title">Rabi-Ribi Brasil</h3>
-                                <p class="card-text">Página no Facebook</p>
-                                <p><a href="https://www.facebook.com/RabiRibiBR/" class="btn btn-primary" target="_blank">Visitar &gt;</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- GITHUB RABI-RIBI
-                    <div class="col-md d-flex align-items-stretch mt-2 mb-2">
-                        <div class="card mx-auto">
-                            <img src="img/logo-rabi-ribi-github.jpg" alt="Tradução Rabi-Ribi" class="card-img-top p-1 imagem-rabi-ribi mx-auto">
-                            <div class="card-body text-center">
-                                <h3 class="card-title">Projeto de Tradução</h3>
-                                <p class="card-text">Repositório no GitHub</p>
-                                <p><a href="https://github.com/AloneInAbyss/traducao-rabi-ribi" class="btn btn-primary" target="_blank">Visitar &gt;</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /LINHA
-            </div>
-        </div>
-        <!-- /SEÇÃO 'SOBRE RABI-RIBI' -->
-
-        <!-- SEÇÃO 'DIVERSOS' -->
-        <div class="row">
-        <div class="offset-md-2 col-md-8">
-            <!-- TÍTULO -->
-            <h2 class="border-bottom pb-1 mt-4 mb-4 titulo">Diversos</h2>
-
-            <!-- LINHA COM IMAGENS -->
-            <div class="row mt-4 mb-4">
-                <div class="col">
-                    <div class="card mx-auto" style="width: 18rem;">
-                        <img class="card-img-top" src="img/link-stickers.png" alt="Card image cap">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">Stickers</h3>
-                            <p class="card-text">Gosta de <i>stickers</i>? Encontre vários por aqui!</p>
-                            <a href="stickers.html" class="btn btn-primary">Explorar &gt;</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /LINHA -->
-        </div>
-        </div>
-        <!-- /SEÇÃO 'DIVERSOS' -->
 
         <!-- SEÇÃO 'REDES SOCIAIS' -->
         <div class="row">
@@ -283,12 +312,12 @@
 
             <!-- LINHA 'SOBRE MIM' -->
             <div class="row pt-3">
-                <div class="offset-md-1 col-md-4">
-                    <img src="img/imagem-sobre-mim.jpg" alt="Imagem Sobre Mim" class="img-thumbnail mx-auto d-block p-2">
+                <div class="offset-lg-1 col-lg-4">
+                    <img src="img/imagem-sobre-mim.jpg" alt="Imagem Sobre Mim" class="img-thumbnail mx-auto d-block p-2 imagem-sobre-mim">
                 </div>
 
-                <div class="col-md-6 align-self-center m-3 pt-1">
-                    <h3 class="text-center text-md-left">Thiago Assi</h3>
+                <div class="col-lg-6 align-self-center m-3 pt-1">
+                    <h3 class="text-center text-lg-left">Thiago Assi</h3>
                     <p>
                         Estudante, aspirante a <b>programador</b>. Amante de <b>jogos <em>indie</em></b> e <b>animes</b>, gosta de <b>raposas</b> e é apaixonado por <b>Matemática</b> e <b>Música</b>.
                     </p>
@@ -312,11 +341,39 @@
         <!-- /SEÇÃO 'RODAPÉ' -->    
 
     </div>
-    <!-- /CONTAINER DA PÁGINA --> 
+    <!-- /CONTAINER DA PÁGINA -->
 
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- jQuery Custom Scroller -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- SIDEBAR / OVERLAY -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#btn-fechar, .overlay').on('click', function() {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
 </body>
 </html>

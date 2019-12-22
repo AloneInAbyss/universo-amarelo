@@ -2,7 +2,7 @@
 body {
     background-color: rgb(36, 36, 36);
     font-family: 'Ruda', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     color: rgb(230, 230, 230);
 }
 
@@ -60,3 +60,17 @@ h1 {
 .imagem-redes-sociais {
     max-width: 300px;
 }
+
+.imagem-sobre-mim {
+    max-width: 200px;
+}
+
+
+
+
+
+/* Desativa o sublinhado com o mouse sobre os links */
+a:hover {
+    text-decoration: none;
+}
+

@@ -1,0 +1,164 @@
+/*
+    Este arquivo inclui modificações no OVERLAY, na NAVBAR e na SIDEBAR
+    Créditos: https://bootstrapious.com/ 
+*/
+
+/* OVERLAY */
+/* Faz a tela esmaecer enquanto a SIDEBAR estiver ativa */
+/* Veja também o <script> no final da página HTML */
+div.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+div.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+
+/* NAVBAR */
+/* Cacterísticas da NAVBAR no topo da página */
+/* Veja também o <script> no final da página HTML */
+div#navbar {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 380px) {
+    div#navbar {
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    div#navbar {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+nav.navbar {
+    padding: 15px 10px;
+    background: #ffff00 !important;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.1);
+}
+
+button.navbar-btn, button.navbar-btn:active, button.navbar-btn:visited {
+    background-color: rgb(36, 36, 36) !important;
+    color: #fff !important;
+    border-color: rgb(36, 36, 36);
+}
+
+button.navbar-btn:hover {
+    background-color: #fff !important;
+    color: rgb(36, 36, 36) !important;
+    border-color: rgb(36, 36, 36);
+}
+
+a.navbar-brand {
+    font-size: 1.8em;
+}
+
+
+/* SIDEBAR */
+/* Características do menu lateral da página */
+/* Veja também o <script> no final da página HTML */
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: rgb(36, 36, 36);
+    color: #FFFF00;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+/* Botão para fechar a SIDEBAR */
+#sidebar #btn-fechar {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #FFFF00;
+    color:rgb(36, 36, 36);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#sidebar #btn-fechar:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+/* Título da SIDEBAR */
+#sidebar .sidebar-header {
+    padding: 20px;
+    border-bottom: 1px solid #FFFF00;
+}
+
+/* Componentes do menu */
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li.active a {
+    color: #000;
+    background: #FFFF00;
+}
+
+#sidebar ul li a:hover {
+    color: #000;
+    background: #fff;
+}
+
+#sidebar div.redes-sociais {
+    padding-top: 5px;
+}
+
+#sidebar div.redes-sociais p {
+    padding-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#sidebar div.redes-sociais p a {
+    padding: 0 10px;
+}
+
+#sidebar a, #sidebar a:hover, #sidebar a:focus {
+    color: inherit;
+    transition: all 0.3s;
+}

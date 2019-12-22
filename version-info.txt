@@ -1,11 +1,12 @@
 ﻿<!-- 
-    CHANGELOG
+   CHANGELOG
+   {
+      V9
+      Comentários da seção "Rabi-Ribi" removidos
+      Seção "Diversos" e seus arquivos removidos
 
-    v9
-
-	MUDANÇAS
-    {
-    }
+      Título alterado para "Universo Amarelo"
+   }
 
 
    IDEIAS
