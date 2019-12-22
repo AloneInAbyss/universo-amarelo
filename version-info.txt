@@ -38,5 +38,6 @@
       Atualizar o texto da seção "Raposas";
       Recortar imagens no tamanho correto;
       Criar um logotipo;
+      Reestruturar o site na arquitetura MVC;
    }
 */
