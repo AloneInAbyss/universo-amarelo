@@ -1,32 +1,42 @@
-﻿<!-- 
+﻿/*
+   UNIVERSO AMARELO
+   Versão atual: 2.1
+
    CHANGELOG
    {
-      V9
-      Comentários da seção "Rabi-Ribi" removidos
-      Seção "Diversos" e seus arquivos removidos
+      - Versão 2.0
+      Após quase um ano sem atualizações, o site está sendo reestruturado e foi adicionado ao GitHub.
+      Em breve será hospedado oficialmente e servirá como um portfólio.
+      
+      - Versão 2.1
+      Título alterado para "Universo Amarelo";
+      SIDEBAR adicionada (juntamente com uma NAVBAR e a funcionalidade de OVERLAY);
+      Seção "Stickers" e seus arquivos removidos;
+      Parte da página "Sobre Mim" removida;
+      A seção "Redes Sociais" foi reestruturada;
+      Na seção "Sobre Mim" foi adicionado um botão para o site de currículo, os botões foram
+      centralizados e o texto foi atualizado;
+      Na seção "Kuuhaku" o texto foi atualizado;
+      Texto de boas-vindas atualizado;
+      [entre outros detalhes]
 
-      Título alterado para "Universo Amarelo"
+      - Versão 2.2
+      Texto "version-info.txt" agora está sendo atualizado
+      Imagens fora de uso removidas
    }
 
 
-   IDEIAS
+   PLANEJAMENTOS
    {
-	Atualizar a seção "Raposas"
-	Fazer uma lista de jogos e animes
-	Nome: "Universo Amarelo" | Fazer um logo
-	Adicionar 'Tenebris' e 'Bomber Gun'
-        Criar uma seção com uma galeria de imagens
-        Colocar um botão flutuante 'voltar para cima' e 'menu lateral'
-        Criar uma navbar
-	Adicionar uma biografia
-	Adicionar idioma 'inglês'
+      Colocar um botão flutuante 'voltar para cima' e 'menu lateral';
+      Adicionar seção de "Projetos", incluindo:
+         > TCC do SENAI
+         > Site Nota1000
+         > Tenebris
+         > Bomber Gun
+      Unificar o CSS da página principal e da página "Sobre Mim";
+      Atualizar o texto da seção "Raposas";
+      Recortar imagens no tamanho correto;
+      Criar um logotipo;
    }
--->
-
-<!-- 
-   VERSÕES DOS OUTROS SITES
-
-	Kuuhaku: v11
-	Segredos do Porão: -
-    
--->
+*/
