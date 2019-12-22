@@ -47,40 +47,40 @@
 
             <!-- Link "Início" -->
             <li class="active">
-                <a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Início</a>
+                <a href="#inicio"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Início</a>
             </li>
 
             <!-- Link "Projetos" -->
             <li>
-                <a href="#"><i class="fa fa-folder-open" aria-hidden="true"></i>&nbsp;&nbsp;Projetos</a>
+                <a href="#projetos"><i class="fa fa-folder-open" aria-hidden="true"></i>&nbsp;&nbsp;Projetos</a>
             </li>
 
             <!-- Link "Currículo" -->
             <li>
-                <a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;Currículo</a>
+                <a href="site-curriculo/index.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;Currículo</a>
             </li>
 
             <!-- Link "Sobre Mim" -->
             <li>
-                <a href="#"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Sobre Mim</a>
+                <a href="sobremim.html"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Sobre Mim</a>
             </li>
             
             <!-- Redes Sociais -->
             <div class="redes-sociais">
             <p>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/AloneInAbyss" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/thiago.assi.168" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/ThiagoHAssi" target="_blank"><i class="fab fa-twitter"></i></a>
             </p>
             <p>
-                <a href="#"><i class="fab fa-steam"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://steamcommunity.com/id/fallenmonster/" target="_blank"><i class="fab fa-steam"></i></a>
+                <a href="https://br.pinterest.com/aloneinabyss/" target="_blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://www.linkedin.com/in/thiago-assi-bbb7a7197" target="_blank"><i class="fab fa-linkedin"></i></a>
             </p>
-            <p>
+            <!--<p>
                 <a href="#"><i class="fab fa-reddit-alien"></i></a>
-                <a href="#"><i class="fab fa-pinterest"></i></a>
-            </p>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </p>-->
             </div>
         </ul>
         <!-- /Componentes da SIDEBAR -->
@@ -112,7 +112,7 @@
     <div class="container-fluid">
 
         <!-- SEÇÃO 'BEM-VINDO' -->
-        <div class="row">
+        <div id="inicio" class="row">
         <div class="offset-md-2 col-md-8">
             <!-- TÍTULO -->
             <h1 class="border-bottom mt-4 titulo">Bem-Vindo!<span class="text-muted float-right" style="font-size: smaller;"><small>- Thiago Assi</small></span></h1>
@@ -121,7 +121,7 @@
             <h2 class="text-center pt-1 mt-5 mb-4">"Never <strong>one</strong> without the <strong>other</strong>."</h2>
             <img src="img/imagem-inicial.jpg" alt="Imagem Inicial" class="img-thumbnail mx-auto d-block mt-3 mb-4">
         </div>
-        </div>
+        </div id="inicio">
         <!-- /SEÇÃO 'BEM-VINDO' -->
 
         <!-- SEÇÃO 'INTRODUÇÃO' -->
@@ -129,7 +129,7 @@
             <!-- COLUNA 'Resumo' -->
             <div class="offset-md-2 col-md-4 align-self-center">
                 <p class="mt-2 mb-4">
-                    "Aqui você encontra os links para várias coisas minhas, como meus projetos ou outras coisas legais que estão em desenvolvimento! Tem muita coisa pra arrumar ainda, mas procurando por aí você pode descobrir um pouco mais sobre mim!"
+                    "Olá! Este é um portfólio de  alguns dos meus projetos ou outras coisas legais que já concluí ou que estão em desenvolvimento! Tem muita coisa pra arrumar ainda, mas procurando por aí você pode descobrir um pouco mais sobre mim!"
                     <br>
                     <strong>Seja bem-vindo!</strong>
                     <br>
@@ -144,7 +144,7 @@
         <!-- /SEÇÃO 'INTRODUÇÃO' -->
 
         <!-- SEÇÃO 'KUUHAKU' -->
-        <div class="row">
+        <div id="projetos" class="row">
         <div class="offset-md-2 col-md-8">
             <!-- TÍTULO -->
             <h2 class="border-bottom pb-1 mt-4 mb-4 titulo">Site KUUHAKU</h2>
@@ -157,7 +157,7 @@
                         <img src="img/imagem-kuuhaku.jpg" alt="Imagem Kuuhaku" class="card-img-top p-3">
                         <div class="card-body text-center">
                             <h3 class="card-title">KUUHAKU</h3>
-                            <p class="card-text">Site principal, com conteúdo sobre jogos e animes.</p>
+                            <p class="card-text">Modelo de site desenvolvido com o framework Boostrap, tem conteúdo sobre jogos e animes.</p>
                             <p><a href="site-kuuhaku/index.php" class="btn btn-primary" target="_blank">Visitar &gt;</a></p>
                         </div>
                     </div>
@@ -228,8 +228,8 @@
         </div>
         <!-- /SEÇÃO 'SEGREDOS DO PORÃO' -->
 
-        <!-- SEÇÃO 'REDES SOCIAIS' -->
-        <div class="row">
+        <!-- SEÇÃO 'REDES SOCIAIS' para DESKTOP -->
+        <div class="row d-none d-lg-block">
         <div class="offset-md-2 col-md-8">
             <!-- TÍTULO -->
             <h2 class="border-bottom pb-1 mt-4 mb-4 titulo">Redes Sociais</h2>
@@ -238,7 +238,7 @@
             <div class="row mt-4 mb-4">
                 <div class="col-xl"></div>
                 <!-- GITHUB -->
-                <div class="offset-1 col-10 offset-xl-0 col-xl-3 d-flex align-items-stretch mt-2 mb-2">
+                <div class="col-4 col-xl-3 d-flex align-items-stretch mt-2 mb-2">
                     <div class="card mx-auto">
                         <img src="img/logo-github.jpg" alt="GitHub" class="card-img-top p-1 imagem-redes-sociais mx-auto">
                         <div class="card-body text-center">
@@ -249,7 +249,7 @@
                     </div>
                 </div>
                 <!-- FACEBOOK -->
-                <div class="offset-1 col-10 offset-xl-0 col-xl-3 d-flex align-items-stretch mt-2 mb-2">
+                <div class="col-4 col-xl-3 d-flex align-items-stretch mt-2 mb-2">
                     <div class="card mx-auto">
                         <img src="img/logo-facebook.png" alt="Facebook" class="card-img-top p-1 imagem-redes-sociais mx-auto">
                         <div class="card-body text-center">
@@ -260,7 +260,7 @@
                     </div>
                 </div>
                 <!-- STEAM -->
-                <div class="offset-1 col-10 offset-xl-0 col-xl-3 d-flex align-items-stretch mt-2 mb-2">
+                <div class="col-4 col-xl-3 d-flex align-items-stretch mt-2 mb-2">
                     <div class="card mx-auto">
                         <img src="img/logo-steam.jpg" alt="Steam" class="card-img-top p-1 imagem-redes-sociais mx-auto">
                         <div class="card-body text-center">
@@ -277,7 +277,7 @@
             <!-- LINHA COM IMAGENS -->
             <div class="row mt-4 mb-4">
                 <!-- TWITTER -->
-                <div class="offset-1 col-10 offset-xl-3 col-xl-3 d-flex align-items-stretch mt-2 mb-2">
+                <div class="offset-2 col-4 offset-xl-3 col-xl-3 d-flex align-items-stretch mt-2 mb-2">
                     <div class="card mx-auto">
                         <img src="img/logo-twitter.jpeg" alt="Twitter" class="card-img-top p-1 imagem-redes-sociais mx-auto">
                         <div class="card-body text-center">
@@ -288,7 +288,7 @@
                     </div>
                 </div>
                 <!-- PINTEREST -->
-                <div class="offset-1 col-10 offset-xl-0 col-xl-3 d-flex align-items-stretch mt-2 mb-2">
+                <div class="col-4 col-xl-3 d-flex align-items-stretch mt-2 mb-2">
                     <div class="card mx-auto">
                         <img src="img/logo-pinterest.png" alt="Pinterest" class="card-img-top p-1 imagem-redes-sociais mx-auto">
                         <div class="card-body text-center">
@@ -303,6 +303,42 @@
         </div>
         </div>
         <!-- /SEÇÃO 'REDES SOCIAIS' -->
+
+        <!-- SEÇÃO 'REDES SOCIAIS' para MOBILE -->
+        <div class="row d-lg-none">
+            <div class="offset-md-2 col-md-8">
+                <!-- TÍTULO -->
+                <h2 class="border-bottom pb-1 mt-4 mb-4 titulo">Redes Sociais</h2>
+                <!-- LINHA COM IMAGENS -->
+                <div class="row mt-4 mb-4 row-icones text-center">
+                    <!-- GITHUB -->
+                    <div class="col-4 align-items-stretch mt-2 mb-2">
+                        <a href="https://github.com/AloneInAbyss" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <!-- FACEBOOK -->
+                    <div class="col-4 align-items-stretch mt-2 mb-2">
+                        <a href="https://www.facebook.com/thiago.assi.168" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <!-- TWITTER -->
+                    <div class="col-4 align-items-stretch mt-2 mb-2">
+                        <a href="https://twitter.com/ThiagoHAssi" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <!-- STEAM -->
+                    <div class="col-4 align-items-stretch mt-5 mb-2">
+                        <a href="https://steamcommunity.com/id/fallenmonster/" target="_blank"><i class="fab fa-steam"></i></a>
+                    </div>
+                    <!-- PINTEREST -->
+                    <div class="col-4 align-items-stretch mt-5 mb-2">
+                        <a href="https://br.pinterest.com/aloneinabyss/" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                    <!-- LINKEDIN -->
+                    <div class="col-4 align-items-stretch mt-5 mb-2">
+                        <a href="https://www.linkedin.com/in/thiago-assi-bbb7a7197" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <!-- SEÇÃO 'SOBRE MIM' -->
         <div class="row secao-sobre-mim">
@@ -319,9 +355,12 @@
                 <div class="col-lg-6 align-self-center m-3 pt-1">
                     <h3 class="text-center text-lg-left">Thiago Assi</h3>
                     <p>
-                        Estudante, aspirante a <b>programador</b>. Amante de <b>jogos <em>indie</em></b> e <b>animes</b>, gosta de <b>raposas</b> e é apaixonado por <b>Matemática</b> e <b>Música</b>.
+                        Estudante, aspirante a <b>programador</b>. Amante de <b>jogos <em>indie</em></b> e <b>animes</b>, gosta de <b>raposas</b> e é apaixonado por <b>Matemática</b> e <b>Computação</b>.
                     </p>
-                    <a href="sobremim.html" class="btn btn-primary ml-3">Sobre Mim &gt;</a>
+                    <div class="row d-block text-center">
+                        <a href="sobremim.html" class="btn btn-primary ml-3">Sobre Mim &gt;</a>
+                        <a href="site-curriculo/index.html" class="btn btn-warning ml-3">Currículo &gt;</a>
+                    </div>
                 </div>
             </div>
             

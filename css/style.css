@@ -10,6 +10,11 @@ h1 {
     font-size: 3em;
 }
 
+/* Desativa o sublinhado com o mouse sobre os links */
+a:hover {
+    text-decoration: none;
+}
+
 @media screen and (min-width: 576px) {
     .titulo {
         padding-left: 15px;
@@ -18,6 +23,12 @@ h1 {
 
 .card {
     color: black;
+}
+
+.row-icones a, .row-icones a:hover, .row-icones a:active, .row-icones a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 3em;
 }
 
 /* SEÇÕES */
@@ -61,16 +72,9 @@ h1 {
     max-width: 300px;
 }
 
-.imagem-sobre-mim {
-    max-width: 200px;
-}
-
-
-
-
-
-/* Desativa o sublinhado com o mouse sobre os links */
-a:hover {
-    text-decoration: none;
+@media screen and (max-width: 1200px) {
+    .imagem-sobre-mim {
+        max-width: 200px;
+    }
 }
 
