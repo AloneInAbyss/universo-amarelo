@@ -16,7 +16,7 @@
 	Nome: "Universo Amarelo" | Fazer um logo
 	Adicionar 'Tenebris' e 'Bomber Gun'
         Criar uma seção com uma galeria de imagens
-        Colocar um botão flutuante 'voltar para cima'
+        Colocar um botão flutuante 'voltar para cima' e 'menu lateral'
         Criar uma navbar
 	Adicionar uma biografia
 	Adicionar idioma 'inglês'
