@@ -21,8 +21,20 @@
       [entre outros detalhes]
 
       - Versão 2.2
-      Texto "version-info.txt" agora está sendo atualizado
-      Imagens fora de uso removidas
+      Texto "version-info.txt" agora está sendo atualizado;
+      Imagens fora de uso removidas;
+      Alguns comentários removidos;
+      Seção "projetos" iniciada;
+      LinkedIn adicionado;
+   }
+
+   ARQUIVOS ALTERADOS
+   {
+        index.html
+        style.css
+        version-info.txt
+        logo-linkedin.png
+        logo-videogame.png
    }
 
 
