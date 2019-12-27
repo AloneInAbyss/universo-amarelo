@@ -1,6 +1,6 @@
 ﻿/*
    UNIVERSO AMARELO
-   Versão atual: 2.1
+   Versão atual: 2.3
 
    CHANGELOG
    {
@@ -26,15 +26,14 @@
       Alguns comentários removidos;
       Seção "projetos" iniciada;
       LinkedIn adicionado;
+
+      - Versão 2.3
+      Imagem "imagem-kuuhaku-noticias.jpg" deletada;
    }
 
    ARQUIVOS ALTERADOS
    {
-        index.html
-        style.css
-        version-info.txt
-        logo-linkedin.png
-        logo-videogame.png
+      Imagem "imagem-kuuhaku-noticias.jpg" deletada;
    }
 
 
