@@ -45,6 +45,7 @@
          > Site Nota1000
          > Tenebris
          > Bomber Gun
+         > Elucidator
       Unificar o CSS da página principal e da página "Sobre Mim";
       Atualizar o texto da seção "Raposas";
       Recortar imagens no tamanho correto;
