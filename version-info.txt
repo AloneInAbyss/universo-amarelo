@@ -29,6 +29,8 @@
 
       - Versão 2.3
       Imagem "imagem-kuuhaku-noticias.jpg" deletada;
+      Texto do card "Repositórios no GitHub" atualizado;
+      Texto da seção "Raposas" atualizado; 
    }
 
    ARQUIVOS ALTERADOS
