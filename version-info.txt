@@ -1,6 +1,6 @@
 ﻿/*
    UNIVERSO AMARELO
-   Versão atual: 2.3
+   Versão atual: 2.4
 
    CHANGELOG
    {
@@ -33,12 +33,15 @@
       Texto da seção "Raposas" atualizado; 
       Imagem do GitHub "imagem-kuuhaku-github" modificada;
       Endereço no currículo alterado;
+      [Versão finalizada - Upload em 21.01.2020]
+
+      - Versão 2.4
+
    }
 
    ARQUIVOS ALTERADOS
    {
-      Imagem "imagem-kuuhaku-noticias.jpg" deletada;
-      Imagem "imagem-kuuhaku-github.png" alterada;
+      
    }
 
 
