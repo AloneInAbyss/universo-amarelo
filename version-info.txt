@@ -31,11 +31,14 @@
       Imagem "imagem-kuuhaku-noticias.jpg" deletada;
       Texto do card "Repositórios no GitHub" atualizado;
       Texto da seção "Raposas" atualizado; 
+      Imagem do GitHub "imagem-kuuhaku-github" modificada;
+      Endereço no currículo alterado;
    }
 
    ARQUIVOS ALTERADOS
    {
       Imagem "imagem-kuuhaku-noticias.jpg" deletada;
+      Imagem "imagem-kuuhaku-github.png" alterada;
    }
 
 
@@ -53,5 +56,12 @@
       Recortar imagens no tamanho correto;
       Criar um logotipo;
       Reestruturar o site na arquitetura MVC;
+      Criar uma página-modelo;
+      Colocar uma  frase e imagem inicial aleatória;
+      Colocar link para o repositório do GitHub no rodapé
+
+      No currículo:
+         > Colocar link para o site
+         > Adicionar descrições
    }
 */
