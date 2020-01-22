@@ -45,13 +45,13 @@
          Vários links para empresas e cursos criados;
          Vários textos alterados;
          Modificado "resume.css";
+      Erro ortográfico na seção "raposas"
+      [Versão Atualizada - Upload em 21.01.2020]
    }
 
    ARQUIVOS ALTERADOS
    {
-      No site-curriculo:
-         index.html
-         resume.css
+
    }
 
 
@@ -74,6 +74,6 @@
       Colocar link para o repositório do GitHub no rodapé
 
       No currículo:
-         > Adicionar seção "idiomas"
+         > Trocar foto de perfil
    }
 */
