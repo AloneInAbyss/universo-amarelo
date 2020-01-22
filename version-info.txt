@@ -36,12 +36,22 @@
       [Versão finalizada - Upload em 21.01.2020]
 
       - Versão 2.4
-
+      No site-curriculo:
+         Adicionado META tags de "author" e "description";
+         Propriedade "title" adicionada a vários links;
+         Adicionada seção "Habilidades";
+         Prêmios alterados;
+         Criado link para meu site através do ícone ou do nome;
+         Vários links para empresas e cursos criados;
+         Vários textos alterados;
+         Modificado "resume.css";
    }
 
    ARQUIVOS ALTERADOS
    {
-      
+      No site-curriculo:
+         index.html
+         resume.css
    }
 
 
@@ -64,7 +74,6 @@
       Colocar link para o repositório do GitHub no rodapé
 
       No currículo:
-         > Colocar link para o site
-         > Adicionar descrições
+         > Adicionar seção "idiomas"
    }
 */
