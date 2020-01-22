@@ -51,29 +51,30 @@
 
    ARQUIVOS ALTERADOS
    {
-
+      [Último upload em 21.01.2020]
    }
 
 
    PLANEJAMENTOS
    {
       Colocar um botão flutuante 'voltar para cima' e 'menu lateral';
+      Unificar o CSS da página principal e da página "Sobre Mim";
+      Recortar imagens no tamanho correto;
+      Criar um logotipo;
+      Colocar uma frase e imagem inicial aleatória;
+      Colocar link para o repositório do GitHub no rodapé;
+      Criar uma página-modelo;
+      Reestruturar o site na arquitetura MVC;
+
       Adicionar seção de "Projetos", incluindo:
          > TCC do SENAI
          > Site Nota1000
          > Tenebris
          > Bomber Gun
          > Elucidator
-      Unificar o CSS da página principal e da página "Sobre Mim";
-      Atualizar o texto da seção "Raposas";
-      Recortar imagens no tamanho correto;
-      Criar um logotipo;
-      Reestruturar o site na arquitetura MVC;
-      Criar uma página-modelo;
-      Colocar uma  frase e imagem inicial aleatória;
-      Colocar link para o repositório do GitHub no rodapé
 
       No currículo:
          > Trocar foto de perfil
+         > Adicionar favicon
    }
 */
