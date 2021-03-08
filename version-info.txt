@@ -1,39 +1,20 @@
 ﻿/*
    UNIVERSO AMARELO
-   Versão atual: 2.4
+   Versão atual: 2.5
 
    CHANGELOG
    {
-      - Versão 2.0
-      Após quase um ano sem atualizações, o site está sendo reestruturado e foi adicionado ao GitHub.
-      Em breve será hospedado oficialmente e servirá como um portfólio.
-      
-      - Versão 2.1
-      Título alterado para "Universo Amarelo";
-      SIDEBAR adicionada (juntamente com uma NAVBAR e a funcionalidade de OVERLAY);
-      Seção "Stickers" e seus arquivos removidos;
-      Parte da página "Sobre Mim" removida;
-      A seção "Redes Sociais" foi reestruturada;
-      Na seção "Sobre Mim" foi adicionado um botão para o site de currículo, os botões foram
-      centralizados e o texto foi atualizado;
-      Na seção "Kuuhaku" o texto foi atualizado;
-      Texto de boas-vindas atualizado;
-      [entre outros detalhes]
+      - Versão 2.5.2
+      [Atualizar estrutura da SIDEBAR]
 
-      - Versão 2.2
-      Texto "version-info.txt" agora está sendo atualizado;
-      Imagens fora de uso removidas;
-      Alguns comentários removidos;
-      Seção "projetos" iniciada;
-      LinkedIn adicionado;
+      - Versão 2.5.1
+      Novas Meta Tags adicionadas;
+      Versão do "Bootstrap" atualizada (de "4.4.1" para "4.6.0");
+      Versões do "jQuery" e "JavaScript" do "Bootstrap" atualizadas;
+      Dependência do "Font Awesome" atualizada (de "5.3.1" para "latest");
 
-      - Versão 2.3
-      Imagem "imagem-kuuhaku-noticias.jpg" deletada;
-      Texto do card "Repositórios no GitHub" atualizado;
-      Texto da seção "Raposas" atualizado; 
-      Imagem do GitHub "imagem-kuuhaku-github" modificada;
-      Endereço no currículo alterado;
-      [Versão finalizada - Upload em 21.01.2020]
+      - Versão 2.5
+      "Boostrap" -> "Bootstrap"
 
       - Versão 2.4
       No site-curriculo:
@@ -47,11 +28,45 @@
          Modificado "resume.css";
       Erro ortográfico na seção "raposas"
       [Versão Atualizada - Upload em 21.01.2020]
+      Habilidade "banco de dados mysql" adicionada
+      Texto corrigido 
+
+      - Versão 2.3
+      Imagem "imagem-kuuhaku-noticias.jpg" deletada;
+      Texto do card "Repositórios no GitHub" atualizado;
+      Texto da seção "Raposas" atualizado; 
+      Imagem do GitHub "imagem-kuuhaku-github" modificada;
+      Endereço no currículo alterado;
+      [Versão finalizada - Upload em 21.01.2020]
+
+      - Versão 2.2
+      Texto "version-info.txt" agora está sendo atualizado;
+      Imagens fora de uso removidas;
+      Alguns comentários removidos;
+      Seção "projetos" iniciada;
+      LinkedIn adicionado;
+      
+      - Versão 2.1
+      Título alterado para "Universo Amarelo";
+      SIDEBAR adicionada (juntamente com uma NAVBAR e a funcionalidade de OVERLAY);
+      Seção "Stickers" e seus arquivos removidos;
+      Parte da página "Sobre Mim" removida;
+      A seção "Redes Sociais" foi reestruturada;
+      Na seção "Sobre Mim" foi adicionado um botão para o site de currículo, os botões foram
+      centralizados e o texto foi atualizado;
+      Na seção "Kuuhaku" o texto foi atualizado;
+      Texto de boas-vindas atualizado;
+      [entre outros detalhes]
+
+      - Versão 2.0
+      Após quase um ano sem atualizações, o site está sendo reestruturado e foi adicionado ao GitHub.
+      Em breve será hospedado oficialmente e servirá como um portfólio.
    }
 
    ARQUIVOS ALTERADOS
    {
       [Último upload em 21.01.2020]
+      Currículo index.html
    }
 
 
