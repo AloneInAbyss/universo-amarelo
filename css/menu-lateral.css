@@ -1,0 +1,21 @@
+/*
+Este arquivo inclui modificações no OVERLAY, na NAVBAR e na SIDEBAR
+Créditos: https://bootstrapious.com/ 
+*/
+
+@import url("menu-lateral/overlay.css");
+@import url("menu-lateral/navbar.css");
+@import url("menu-lateral/sidebar.css");
+
+/* CSS RESET */
+#sidebar * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style:none;
+  box-sizing: border-box;
+}
+
+#sidebar a, #sidebar a:hover {
+  text-decoration: none;
+}

@@ -1,113 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <!-- Informações Básicas -->
-    <meta charset="utf-8">
-    <meta name="description" content="O Universo Amarelo é um armazém vivo de ideias e projetos. Encontre aqui o meu universo.">
-    <meta name="keywords" content="Portfólio, Thiago Assi, Universo Amarelo">
-    <meta name="author" content="Thiago Assi">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Informações Básicas -->
+  <meta charset="utf-8">
+  <meta name="description"
+    content="O Universo Amarelo é um armazém vivo de ideias e projetos. Encontre aqui o meu universo.">
+  <meta name="keywords" content="Portfólio, Thiago Assi, Universo Amarelo">
+  <meta name="author" content="Thiago Assi">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Título & Ícone -->
-    <title>Universo Amarelo</title>
-    <link rel="icon" href="img/favicon.ico">
+  <!-- Título & Ícone -->
+  <title>Universo Amarelo</title>
+  <link rel="icon" href="img/favicon.ico">
 
-    <!-- Bootstrap CSS -->
-    <!-- Versão Antiga <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <!-- Versão Antiga <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <!-- Font Awesome -->
-    <!-- Versão Antiga <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet"> -->
-    <script src="https://kit.fontawesome.com/0a5b1d410d.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <!-- Versão Antiga <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet"> -->
+  <script src="https://kit.fontawesome.com/0a5b1d410d.js" crossorigin="anonymous"></script>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet"> <!-- Fonte RUDA -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet"> <!-- Fonte RUDA -->
 
-    <!-- Scrollbar CSS Template -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  <!-- Scrollbar CSS Template -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
-    <!-- CSS Personalizado -->
-    <link rel="stylesheet" href="css/style.css"> <!-- CSS GERAL -->
-    <link rel="stylesheet" href="css/sidebar.css"> <!-- BARRA DE NAVEGAÇÃO LATERAL -->
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="css/style.css"> <!-- CSS GERAL -->
+  <link rel="stylesheet" href="css/menu-lateral.css"> <!-- MENU DE NAVEGAÇÃO LATERAL -->
 </head>
+
 <body>
-    <!-- SIDEBAR  -->
-    <nav id="sidebar">
-        <!-- Botão para fechar -->
-        <div id="btn-fechar">
-            <i class="fas fa-arrow-left"></i>
-        </div>
+  <!-- SIDEBAR  -->
+  <nav id="sidebar">
+    <!-- Botão para fechar
+      <div id="btn-fechar">
+          <i class="fas fa-arrow-left"></i>
+      </div>
+    -->
+  
+    <!-- Cabeçalho -->
+    <header class="sidebar-header">
+      <p class="sidebar-title">Universo<br>Amarelo</p>
+  
+      <!-- Citação -->
+      <div class="sidebar-quote">
+        <p><q>Insanidade é fazer sempre a mesma coisa e esperar resultados diferentes</q></p>
+        <p>– Albert Einstein</p>
+      </div>
+    </header>
+  
+    <!-- LISTA DE SEÇÕES -->
+    <ul class="lista-secoes">
+  
+      <!-- Link "Início" -->
+      <li class="active">
+        <a href="#inicio"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Início</a>
+      </li>
+  
+      <!-- Link "Projetos" -->
+      <li>
+        <a href="#projetos"><i class="fa fa-folder-open" aria-hidden="true"></i>&nbsp;&nbsp;Projetos</a>
+      </li>
+  
+      <!-- Link "Currículo" -->
+      <li>
+        <a href="site-curriculo/index.html"><i class="fa fa-graduation-cap"
+            aria-hidden="true"></i>&nbsp;&nbsp;Currículo</a>
+      </li>
+  
+      <!-- Link "Sobre Mim" -->
+      <li>
+        <a href="sobremim.html"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Sobre Mim</a>
+      </li>
+  
+    </ul>
 
-        <!-- Título da SIDEBAR -->
-        <div class="sidebar-header">
-            <h3>Universo Amarelo</h3>
-        </div>
+    <!-- REDES SOCIAIS -->
+    <footer>
+      <ul class="redes-sociais">
+        <li><a href="https://github.com/AloneInAbyss" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.facebook.com/thiago.assi.168" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/ThiagoHAssi" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://steamcommunity.com/id/fallenmonster/" target="_blank"><i class="fab fa-steam"></i></a></li>
+        <li><a href="https://br.pinterest.com/aloneinabyss/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/thiago-assi-bbb7a7197" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </footer>
+  </nav>
+  <!-- /SIDEBAR -->
 
-        <!-- Componentes da SIDEBAR -->
-        <ul class="list-unstyled components">
-            <!-- Frase -->
-            <p><q>Insanidade é fazer a mesma coisa e esperar resultados diferentes</q></p>
-            <p>- Albert Einstein</p>
-
-            <!-- Link "Início" -->
-            <li class="active">
-                <a href="#inicio"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Início</a>
-            </li>
-
-            <!-- Link "Projetos" -->
-            <li>
-                <a href="#projetos"><i class="fa fa-folder-open" aria-hidden="true"></i>&nbsp;&nbsp;Projetos</a>
-            </li>
-
-            <!-- Link "Currículo" -->
-            <li>
-                <a href="site-curriculo/index.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;Currículo</a>
-            </li>
-
-            <!-- Link "Sobre Mim" -->
-            <li>
-                <a href="sobremim.html"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Sobre Mim</a>
-            </li>
-            
-            <!-- Redes Sociais -->
-            <div class="redes-sociais">
-            <p>
-                <a href="https://github.com/AloneInAbyss" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.facebook.com/thiago.assi.168" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/ThiagoHAssi" target="_blank"><i class="fab fa-twitter"></i></a>
-            </p>
-            <p>
-                <a href="https://steamcommunity.com/id/fallenmonster/" target="_blank"><i class="fab fa-steam"></i></a>
-                <a href="https://br.pinterest.com/aloneinabyss/" target="_blank"><i class="fab fa-pinterest"></i></a>
-                <a href="https://www.linkedin.com/in/thiago-assi-bbb7a7197" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </p>
-            </div>
-        </ul>
-        <!-- /Componentes da SIDEBAR -->
-    </nav>
-    <!-- SIDEBAR -->
-
-    <!-- OVERLAY da SIDEBAR -->
-    <div class="overlay"></div>
-
-    <!-- NAVBAR -->
-    <div id="navbar">
+  <!-- OVERLAY da SIDEBAR -->
+  <div class="overlay"></div>
+  
+  <!-- NAVBAR -->
+  <div id="navbar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <!-- Botão da SIDEBAR -->
-            <button type="button" id="sidebarCollapse" class="btn btn-primary navbar-btn">
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <!-- NOME DO SITE -->
-            <a class="navbar-brand" href="#">
-                Universo Amarelo
-            </a>
-        </div>
+      <div class="container-fluid">
+        <!-- Botão da SIDEBAR -->
+        <button type="button" id="sidebarCollapse" class="btn btn-primary navbar-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+  
+        <!-- NOME DO SITE -->
+        <a class="navbar-brand" href="#">
+          Universo Amarelo
+        </a>
+      </div>
     </nav>
-    </div>
-    <!-- /NAVBAR -->
+  </div>
+  <!-- /NAVBAR -->
 
     <!-- CONTAINER DA PÁGINA --> 
     <div class="container-fluid">
@@ -436,24 +445,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
     <!-- SIDEBAR & OVERLAY -->
-    <script>
-        $(document).ready(function() {
-            $("#sidebar").mCustomScrollbar({
-                theme: "minimal"
-            });
-
-            $('#btn-fechar, .overlay').on('click', function() {
-                $('#sidebar').removeClass('active');
-                $('.overlay').removeClass('active');
-            });
-
-            $('#sidebarCollapse').on('click', function() {
-                $('#sidebar').addClass('active');
-                $('.overlay').addClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-        });
-    </script>
+    <script src="js/menu-lateral.js"></script>
 </body>
 </html>

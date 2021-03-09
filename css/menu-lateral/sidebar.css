@@ -1,0 +1,103 @@
+/***** SIDEBAR *****/
+/* Características do menu lateral da página */
+/* Veja também o <script> no final da página HTML */
+
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100vh;
+  z-index: 999;
+  background: rgb(36, 36, 36);
+  transition: all 0.3s;
+  overflow-y: scroll;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+  left: 0;
+}
+
+/* CABEÇALHO */
+#sidebar .sidebar-header {
+  padding: 20px;
+}
+
+#sidebar .sidebar-header .sidebar-title {
+  color: #FFFF00;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+/* Citação */
+#sidebar .sidebar-header .sidebar-quote p {
+  color: #fff;
+  padding: 0;
+  margin-bottom: .5em;
+}
+
+/* LISTA DE SEÇÕES */
+#sidebar .lista-secoes li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  color: #FFFF00;
+}
+
+#sidebar .lista-secoes li.active a {
+  color: #000;
+  background: #FFFF00;
+}
+
+#sidebar .lista-secoes li a:hover {
+  color: #000;
+  background: #fff;
+}
+
+/* REDES SOCIAIS */
+#sidebar .redes-sociais {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+#sidebar .redes-sociais li {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+#sidebar a, #sidebar a:hover, #sidebar a:focus {
+  color: inherit;
+  transition: all 0.3s;
+}
+
+
+
+/***** REMOVIDOS *****/
+
+/* Botão para fechar
+#sidebar #btn-fechar {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background: #FFFF00;
+  color:rgb(36, 36, 36);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#sidebar #btn-fechar:hover {
+  background: #FFFFFF;
+  color: #000000;
+}
+*/

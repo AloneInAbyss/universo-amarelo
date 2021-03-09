@@ -5,7 +5,12 @@
    CHANGELOG
    {
       - Versão 2.5.2
-      [Atualizar estrutura da SIDEBAR]
+      [Atualizar estrutura do menu lateral]
+      [Corrigir indentação]
+      [Separar o CSS Reset]
+      [Deixar o menu sempre aparecendo em telas grandes]
+      [Colocar flexbox no menu lateral]
+      [Arquivos CSS foram divididos]
 
       - Versão 2.5.1
       Novas Meta Tags adicionadas;

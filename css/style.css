@@ -12,7 +12,7 @@ h1 {
 
 /* Desativa o sublinhado com o mouse sobre os links */
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 576px) {

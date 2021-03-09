@@ -1,0 +1,44 @@
+/***** NAVBAR *****/
+/* Cacterísticas da NAVBAR no topo da página */
+/* Veja também o <script> no final da página HTML */
+
+div#navbar {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 380px) {
+  div#navbar {
+    font-size: small;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  div#navbar {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+nav.navbar {
+  padding: 15px 10px;
+  background: #ffff00 !important;
+  border: none;
+  border-radius: 0;
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.1);
+}
+
+button.navbar-btn, button.navbar-btn:active, button.navbar-btn:visited {
+  background-color: rgb(36, 36, 36) !important;
+  color: #fff !important;
+  border-color: rgb(36, 36, 36);
+}
+
+button.navbar-btn:hover {
+  background-color: #fff !important;
+  color: rgb(36, 36, 36) !important;
+  border-color: rgb(36, 36, 36);
+}
+
+a.navbar-brand {
+  font-size: 1.8em;
+}
