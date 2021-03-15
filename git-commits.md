@@ -1,0 +1,22 @@
+- imagem adicional removida
+- versão 2.5.2
+- modificacoes no menu lateral
+- versões das dependências atualizadas
+- informacoes e ideias atualizadas
+- erro ortográfico
+- site-curriculo atualizado
+- versão 2.4 iniciada
+- version-info atualizado
+- textos atualizados, versao 2.3
+- projeto elucidator adicionado a lista de afazeres
+- imagem-kuuhaku-noticias.jpg deletada
+- versao 2.2
+- arquivo .gitignore atualizado, pasta arquivos-deletados adicionada
+- ideia - estrutura MVC - listada
+- Merge branch 'master' of https://github.com/AloneInAbyss/universo-amarelo
+- versao-2.1 iniciada, changelog atualizado, imagens removidas
+- versao-2.1 iniciado, changelog atualizado, imagens removidas
+- arquivo .gitignore atualizado
+- redes sociais atualizadas e curriculo adicionado
+- sidebar finalizada e outras alteracoes
+- arquivos iniciais da versao 9
