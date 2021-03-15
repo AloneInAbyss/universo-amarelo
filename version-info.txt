@@ -1,16 +1,26 @@
 ﻿/*
    UNIVERSO AMARELO
-   Versão atual: 2.5
+   Versão atual: 2.5.2
 
    CHANGELOG
    {
       - Versão 2.5.2
-      [Atualizar estrutura do menu lateral]
       [Corrigir indentação]
       [Separar o CSS Reset]
       [Deixar o menu sempre aparecendo em telas grandes]
-      [Colocar flexbox no menu lateral]
-      [Arquivos CSS foram divididos]
+      Arquivos CSS foram divididos;
+      Muitas alterações nos cards;
+      Seção de "Projetos" atualizada;
+      No site-segredos-do-porao:
+        Heading atualizado;
+      No site-curriculo:
+        Informações foram atualizadas;
+        Transições adicionadas aos links;
+        Imagens foram atualizadas;
+      
+      BUGS:
+      Não foi possível colocar flexbox no menu lateral;
+
 
       - Versão 2.5.1
       Novas Meta Tags adicionadas;
@@ -23,14 +33,14 @@
 
       - Versão 2.4
       No site-curriculo:
-         Adicionado META tags de "author" e "description";
-         Propriedade "title" adicionada a vários links;
-         Adicionada seção "Habilidades";
-         Prêmios alterados;
-         Criado link para meu site através do ícone ou do nome;
-         Vários links para empresas e cursos criados;
-         Vários textos alterados;
-         Modificado "resume.css";
+        Adicionado META tags de "author" e "description";
+        Propriedade "title" adicionada a vários links;
+        Adicionada seção "Habilidades";
+        Prêmios alterados;
+        Criado link para meu site através do ícone ou do nome;
+        Vários links para empresas e cursos criados;
+        Vários textos alterados;
+        Modificado "resume.css";
       Erro ortográfico na seção "raposas"
       [Versão Atualizada - Upload em 21.01.2020]
       Habilidade "banco de dados mysql" adicionada

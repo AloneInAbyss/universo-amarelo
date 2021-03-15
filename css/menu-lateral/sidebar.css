@@ -40,6 +40,9 @@
 }
 
 /* LISTA DE SEÇÕES */
+#sidebar .lista-secoes {
+  margin-top: 1em;
+}
 #sidebar .lista-secoes li a {
   padding: 10px;
   font-size: 1.1em;
@@ -62,6 +65,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
+  margin-top: 2em;
 }
 
 #sidebar .redes-sociais li {
