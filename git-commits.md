@@ -1,3 +1,4 @@
+- site-curriculo atualizado
 - imagem adicional removida
 - versão 2.5.2
 - modificacoes no menu lateral

@@ -3,7 +3,7 @@
    Versão atual hospedada: 2.5.2
 
    > Comando para gerar um histórico de commits
-   git log –pretty =" -% s "> git-commits.md
+   git log --pretty="- %s"> git-commits.md
 
    CHANGELOG
    {
@@ -11,7 +11,8 @@
       Refatorar o changelog;
       No site-curriculo:
         Lista de linguagens de programação e ferramentas atualizada;
-        [Criar compatibilidade com modo de impressão]
+        Compatibilidade com modo de impressão;
+        Corrigido erro ortográfico;
       
 
       - Versão 2.5.2
