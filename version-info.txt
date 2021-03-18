@@ -1,6 +1,6 @@
 ﻿/*
    UNIVERSO AMARELO
-   Versão atual hospedada: 2.5.2
+   Versão atual hospedada: 2.5.3
 
    > Comando para gerar um histórico de commits
    git log --pretty="- %s"> git-commits.md
@@ -8,7 +8,7 @@
    CHANGELOG
    {
       - Versão 2.5.3
-      Refatorar o changelog;
+      [Refatorar o changelog]
       No site-curriculo:
         Lista de linguagens de programação e ferramentas atualizada;
         Compatibilidade com modo de impressão;
